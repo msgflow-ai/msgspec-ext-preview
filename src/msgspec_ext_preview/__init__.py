@@ -17,6 +17,7 @@ from .types.network import (
 )
 from .types.payments import PaymentCardBrand, PaymentCardNumber
 from .types.phone import PhoneNumber
+from .types.secret import SecretBytes, SecretStr
 
 __all__ = [
     "BaseSettings", 
