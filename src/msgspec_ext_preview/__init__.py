@@ -36,7 +36,7 @@ __all__ = [
     "IPv6Address",
     "IPvAnyInterface",
     "IPvAnyNetwork",
-    "MacAddress"
+    "MacAddress",
     "PaymentCardBrand", 
     "PaymentCardNumber",
     "PhoneNumber",
