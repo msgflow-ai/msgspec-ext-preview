@@ -1,5 +1,5 @@
 from typing import List
-from src.msgspec_ext_preview import *
+from src.msgspec_ext import *
 
 
 http_url = HttpUrl.validate("https://example.com:8080/path?query=1#fragment")
@@ -73,10 +73,9 @@ class AppSettings(BaseSettings):
     cache_ttl: int
     log_level: str
 
-# Carrega as configurações
 settings = AppSettings()
 
-# Exibe os valores carregados
+
 print("Debug:", settings.debug)
 print("Secret Key:", settings.secret_key)
 print("Allowed Hosts:", settings.allowed_hosts)
