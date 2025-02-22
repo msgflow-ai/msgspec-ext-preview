@@ -1,1 +1,1 @@
-# msgspec-ext-preview
+# msgspec-ext
